@@ -1,0 +1,12 @@
+autom4te.cache/
+config.status
+config.log
+depcomp
+missing
+install-sh
+aclocal.m4
+*.o
+*.Po
+*.in
+**/Makefile
+**/<%= bin_name %>

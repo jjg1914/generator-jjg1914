@@ -1,0 +1,20 @@
+{
+  "name": "generator-jjg1914",
+  "version": "0.1.0",
+  "description": "My Generators",
+  "author": "John J. Glynn IV",
+  "license": "MIT",
+  "homepage": "https://github.com/jjg1914/generator-jjg1914",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jjg1914/generator-jjg1914.git"
+  },
+  "dependencies": {
+    "coffee-script": "~1.8",
+    "yeoman-generator": "~0.17",
+    "lodash": "~2.4"
+  }
+}

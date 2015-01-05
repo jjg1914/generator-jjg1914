@@ -1,0 +1,7 @@
+bin_PROGRAMS = <%= bin_name %>
+
+<%= bin_name %>_SOURCES = <%= bin_name %>.cpp
+<%= bin_name %>_CPPFLAGS = -std=c++11
+<%= bin_name %>_CXXFLAGS = -Wall -Wextra -Werror
+<%= bin_name %>_LDFLAGS =
+<%= bin_name %>_LDADD =

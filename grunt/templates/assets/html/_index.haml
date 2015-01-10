@@ -1,0 +1,11 @@
+!!!
+%html(lang="en")
+  %head
+    %meta(charset="UTF-8")
+    %title <%= name %>
+    - for css in @assets_css()
+      %link(href=css rel="stylesheet" type="text/css" media="all")
+    - for js in @assets_js()
+      %script(src=js type="text/javascript")
+  %body
+    %h1 <%= name %>
